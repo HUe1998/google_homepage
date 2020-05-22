@@ -1,1 +1,1 @@
-In this project I'm going to create a lookalike google homepage.
+In this project, I'm going to create a lookalike google homepage.
