@@ -1,3 +1,4 @@
+/*Nav-bar below*/
 nav {
     background-color: transparent;
     display: flex;
@@ -17,7 +18,6 @@ nav {
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
     gap: 3px;
-
 }
 .apps_box{
     background-color: #5f6368;
@@ -27,4 +27,24 @@ nav {
 button {
     height: 34px;
     margin: 10px 15px;    
+}
+a {
+    color: #5f6368;
+}
+.sign_in {
+    font-weight: 900;
+    border-radius: 4px;
+    color: #FFF;
+    background-color: #4285f4;
+    border: 0px;
+    width: 70px;
+}
+/*main content below*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btns_contain {
+    display: flex;
 }
