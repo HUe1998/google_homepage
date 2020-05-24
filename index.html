@@ -3,6 +3,7 @@
     <head>
         <title>Google</title>
         <link href="reset.css" rel="stylesheet" type="text/css" media="all">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" type="text/css">
         <link href="main.css" rel="stylesheet" type="text/css" media="all">
     </head>
     <body>
@@ -23,10 +24,15 @@
             <button type="button" class="sign_in">Sign in</button>
         </nav>
         <main><!--Doesn't include google is availabe in:...-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1920px-Google_2015_logo.svg.png" alt="Google" id="Google_logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" id="Google_logo">
             <div class="text_field">
-                <!--add before and after to text field-->
-                <input type="text">
+                <div class="left_curve_search"></div>
+                <div class="left_blank_search"></div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_Magnifying_Glass.svg" alt="Search icon" id="search_icon">
+                <input id="search_input" type="text">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg" alt="Voice Search" id="voice_icon">
+                <div class="right_blank_search"></div>
+                <div class="right_curve_search"></div>
             </div>
             <div class="btn_contain">
                 <button type="submit" class="search_buttons">Google Search</button>
